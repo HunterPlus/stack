@@ -29,3 +29,9 @@ char st_pop(struct stack *st)
   c = st->data[st->top--];
   return c;
 }
+int st_isEmpty(struct stack *st)
+{
+  if(st->top == -1)
+    return 1;
+  return 0;
+}
