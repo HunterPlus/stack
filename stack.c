@@ -1,4 +1,4 @@
-#include <stack.h>
+#include "stack.h"
 
 void st_push(struct stack *st, char c)
 {
